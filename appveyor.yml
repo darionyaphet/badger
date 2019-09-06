@@ -2,7 +2,7 @@
 version: "{build}"
 
 # Operating system (build VM template)
-os: Windows Server 2012 R2
+os: Windows Server 2019
 
 # Platform.
 platform: x64
@@ -11,7 +11,7 @@ clone_folder: c:\gopath\src\github.com\dgraph-io\badger
 
 # Environment variables
 environment:
-  GOVERSION: 1.12
+  GOVERSION: 1.13
   GOPATH: c:\gopath
   GO111MODULE: on
 
