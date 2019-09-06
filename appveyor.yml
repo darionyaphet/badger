@@ -14,7 +14,6 @@ environment:
   GOVERSION: 1.12
   GOPATH: c:\gopath
   GO111MODULE: on
-  GIT_LFS_SKIP_SMUDGE: 1
 
 # scripts that run after cloning repository
 install:
