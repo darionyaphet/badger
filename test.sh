@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -ex
 
 # Ensure that we can compile the binary.
 pushd badger
