@@ -2,7 +2,7 @@
 version: "{build}"
 
 # Operating system (build VM template)
-os: Windows Server 2019
+os: Windows Server 2012 R2
 
 # Platform.
 platform: x64
