@@ -20,7 +20,10 @@ env:
 git :
   depth: 1
 
+before_install:
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew update && brew install truncate ; fi
 before_script:
 - go get -v
+
 script:
 - ./test.sh
